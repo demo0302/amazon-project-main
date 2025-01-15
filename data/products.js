@@ -1,17 +1,184 @@
 const products = [
+  
   {
-    id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
-    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    id: "a82c6bac-3067-4e68-a5ba-d827ac0be010",
+    image: "images/products/straw-sunhat.webp",
+    name: "Straw Lifeguard Sun Hat",
+    rating: {
+      stars: 4,
+      count: 215
+    },
+    priceCents: 2200,
+    keywords: [
+      "hats",
+      "straw hats",
+      "summer",
+      "apparel"
+    ]
+  },
+  {
+    id: "e4f64a65-1377-42bc-89a5-e572d19252e2",
+    image: "images/products/sky-flower-stud-earrings.webp",
+    name: "Sterling Silver Sky Flower Stud Earrings",
     rating: {
       stars: 4.5,
-      count: 87
+      count: 52
     },
-    priceCents: 1090,
+    priceCents: 1799,
     keywords: [
-      "socks",
-      "sports",
+      "jewelry",
+      "accessories",
+      "womens"
+    ]
+  },
+  {
+    id: "b0f17cc5-8b40-4ca5-9142-b61fe3d98c85",
+    image: "images/products/women-stretch-popover-hoodie-black.jpg",
+    name: "Women's Stretch Popover Hoodie",
+    rating: {
+      stars: 4.5,
+      count: 2465
+    },
+    priceCents: 1374,
+    keywords: [
+      "hooded",
+      "hoodies",
+      "sweaters",
+      "womens",
       "apparel"
+    ],
+    type: "clothing",
+    sizeChartLink: "images/clothing-size-chart.png"
+  },
+  {
+    id: "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
+    image: "images/products/bathroom-rug.jpg",
+    name: "Bathroom Bath Rug Mat 20 x 31 Inch - Grey",
+    rating: {
+      stars: 4.5,
+      count: 119
+    },
+    priceCents: 1250,
+    keywords: [
+      "bathmat",
+      "bathroom",
+      "home"
+    ]
+  },
+  {
+    id: "4f4fbcc2-4e72-45cc-935c-9e13d79cc57f",
+    image: "images/products/women-knit-ballet-flat-black.jpg",
+    name: "Women's Knit Ballet Flat",
+    rating: {
+      stars: 4,
+      count: 326
+    },
+    priceCents: 2640,
+    keywords: [
+      "shoes",
+      "flats",
+      "womens",
+      "footwear"
+    ]
+  },
+  {
+    id: "8b5a2ee1-6055-422a-a666-b34ba28b76d4",
+    image: "images/products/men-golf-polo-t-shirt-blue.jpg",
+    name: "Men's Regular-Fit Quick-Dry Golf Polo Shirt",
+    rating: {
+      stars: 4.5,
+      count: 2556
+    },
+    priceCents: 1599,
+    keywords: [
+      "tshirts",
+      "shirts",
+      "apparel",
+      "mens"
+    ],
+    type: "clothing",
+    sizeChartLink: "images/clothing-size-chart.png"
+  },
+  {
+    id: "b86ddc8b-3501-4b17-9889-a3bad6fb585f",
+    image: "images/products/trash-can-with-foot-pedal-50-liter.jpg",
+    name: "Trash Can with Foot Pedal - Brushed Stainless Steel",
+    rating: {
+      stars: 4.5,
+      count: 2286
+    },
+    priceCents: 8300,
+    keywords: [
+      "garbage",
+      "bins",
+      "cans",
+      "kitchen"
+    ]
+  },
+  {
+    id: "19c6a64a-5463-4d45-9af8-e41140a4100c",
+    image: "images/products/duvet-cover-set-blue-twin.jpg",
+    name: "Duvet Cover Set with Zipper Closure",
+    rating: {
+      stars: 4,
+      count: 456
+    },
+    priceCents: 2399,
+    keywords: [
+      "bedroom",
+      "bed sheets",
+      "sheets",
+      "covers",
+      "home"
+    ]
+  },
+  {
+    id: "d2785924-743d-49b3-8f03-ec258e640503",
+    image: "images/products/women-chunky-beanie-gray.webp",
+    name: "Women's Chunky Cable Beanie - Gray",
+    rating: {
+      stars: 5,
+      count: 83
+    },
+    priceCents: 1250,
+    keywords: [
+      "hats",
+      "winter hats",
+      "beanies",
+      "tuques",
+      "apparel",
+      "womens"
+    ]
+  },
+  {
+    id: "ee1f7c56-f977-40a4-9642-12ba5072e2b0",
+    image: "images/products/men-chino-pants-beige.jpg",
+    name: "Men's Classic-fit Pleated Chino Pants",
+    rating: {
+      stars: 4.5,
+      count: 9017
+    },
+    priceCents: 2290,
+    keywords: [
+      "pants",
+      "apparel",
+      "mens"
+    ]
+  },
+  {
+    id: "1c079479-8586-494f-ab53-219325432536",
+    image: "images/products/men-athletic-shoes-green.jpg",
+    name: "Men's Athletic Sneaker",
+    rating: {
+      stars: 4,
+      count: 229
+    },
+    priceCents: 3890,
+    keywords: [
+      "shoes",
+      "running shoes",
+      "footwear",
+      "mens"
     ]
   },
   {
@@ -263,187 +430,6 @@ const products = [
     ]
   },
   {
-    id: "a82c6bac-3067-4e68-a5ba-d827ac0be010",
-    image: "images/products/straw-sunhat.webp",
-    name: "Straw Lifeguard Sun Hat",
-    rating: {
-      stars: 4,
-      count: 215
-    },
-    priceCents: 2200,
-    keywords: [
-      "hats",
-      "straw hats",
-      "summer",
-      "apparel"
-    ]
-  },
-  {
-    id: "e4f64a65-1377-42bc-89a5-e572d19252e2",
-    image: "images/products/sky-flower-stud-earrings.webp",
-    name: "Sterling Silver Sky Flower Stud Earrings",
-    rating: {
-      stars: 4.5,
-      count: 52
-    },
-    priceCents: 1799,
-    keywords: [
-      "jewelry",
-      "accessories",
-      "womens"
-    ]
-  },
-  {
-    id: "b0f17cc5-8b40-4ca5-9142-b61fe3d98c85",
-    image: "images/products/women-stretch-popover-hoodie-black.jpg",
-    name: "Women's Stretch Popover Hoodie",
-    rating: {
-      stars: 4.5,
-      count: 2465
-    },
-    priceCents: 1374,
-    keywords: [
-      "hooded",
-      "hoodies",
-      "sweaters",
-      "womens",
-      "apparel"
-    ],
-    type: "clothing",
-    sizeChartLink: "images/clothing-size-chart.png"
-  },
-  {
-    id: "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
-    image: "images/products/bathroom-rug.jpg",
-    name: "Bathroom Bath Rug Mat 20 x 31 Inch - Grey",
-    rating: {
-      stars: 4.5,
-      count: 119
-    },
-    priceCents: 1250,
-    keywords: [
-      "bathmat",
-      "bathroom",
-      "home"
-    ]
-  },
-  {
-    id: "4f4fbcc2-4e72-45cc-935c-9e13d79cc57f",
-    image: "images/products/women-knit-ballet-flat-black.jpg",
-    name: "Women's Knit Ballet Flat",
-    rating: {
-      stars: 4,
-      count: 326
-    },
-    priceCents: 2640,
-    keywords: [
-      "shoes",
-      "flats",
-      "womens",
-      "footwear"
-    ]
-  },
-  {
-    id: "8b5a2ee1-6055-422a-a666-b34ba28b76d4",
-    image: "images/products/men-golf-polo-t-shirt-blue.jpg",
-    name: "Men's Regular-Fit Quick-Dry Golf Polo Shirt",
-    rating: {
-      stars: 4.5,
-      count: 2556
-    },
-    priceCents: 1599,
-    keywords: [
-      "tshirts",
-      "shirts",
-      "apparel",
-      "mens"
-    ],
-    type: "clothing",
-    sizeChartLink: "images/clothing-size-chart.png"
-  },
-  {
-    id: "b86ddc8b-3501-4b17-9889-a3bad6fb585f",
-    image: "images/products/trash-can-with-foot-pedal-50-liter.jpg",
-    name: "Trash Can with Foot Pedal - Brushed Stainless Steel",
-    rating: {
-      stars: 4.5,
-      count: 2286
-    },
-    priceCents: 8300,
-    keywords: [
-      "garbage",
-      "bins",
-      "cans",
-      "kitchen"
-    ]
-  },
-  {
-    id: "19c6a64a-5463-4d45-9af8-e41140a4100c",
-    image: "images/products/duvet-cover-set-blue-twin.jpg",
-    name: "Duvet Cover Set with Zipper Closure",
-    rating: {
-      stars: 4,
-      count: 456
-    },
-    priceCents: 2399,
-    keywords: [
-      "bedroom",
-      "bed sheets",
-      "sheets",
-      "covers",
-      "home"
-    ]
-  },
-  {
-    id: "d2785924-743d-49b3-8f03-ec258e640503",
-    image: "images/products/women-chunky-beanie-gray.webp",
-    name: "Women's Chunky Cable Beanie - Gray",
-    rating: {
-      stars: 5,
-      count: 83
-    },
-    priceCents: 1250,
-    keywords: [
-      "hats",
-      "winter hats",
-      "beanies",
-      "tuques",
-      "apparel",
-      "womens"
-    ]
-  },
-  {
-    id: "ee1f7c56-f977-40a4-9642-12ba5072e2b0",
-    image: "images/products/men-chino-pants-beige.jpg",
-    name: "Men's Classic-fit Pleated Chino Pants",
-    rating: {
-      stars: 4.5,
-      count: 9017
-    },
-    priceCents: 2290,
-    keywords: [
-      "pants",
-      "apparel",
-      "mens"
-    ]
-  },
-  {
-    id: "1c079479-8586-494f-ab53-219325432536",
-    image: "images/products/men-athletic-shoes-green.jpg",
-    name: "Men's Athletic Sneaker",
-    rating: {
-      stars: 4,
-      count: 229
-    },
-    priceCents: 3890,
-    keywords: [
-      "shoes",
-      "running shoes",
-      "footwear",
-      "mens"
-    ]
-  },
-  {
     id: "4df68c27-fd59-4a6a-bbd1-e754ddb6d53c",
     image: "images/products/men-navigator-sunglasses-brown.jpg",
     name: "Men's Navigator Sunglasses Pilot",
@@ -518,6 +504,22 @@ const products = [
     keywords: [
       "accessories",
       "womens"
+    ]
+  },
+  
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
+    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 1090,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
     ]
   },
   {
