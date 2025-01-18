@@ -1,4 +1,4 @@
-const products = [
+export const products = [
   
   {
     id: "a82c6bac-3067-4e68-a5ba-d827ac0be010",
